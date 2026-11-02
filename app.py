@@ -105,3 +105,5 @@ def create_user():
 # and use debug mode so that changing code restarts the app
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001, debug=True)
+
+# Test
