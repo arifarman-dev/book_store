@@ -18,11 +18,6 @@ app.secret_key = "some_really_secret_key"
 def hello():
     return "Hello to you too"
 
-# Duplicate route
-@app.route('/hello', methods=['GET'])
-def hello_again():
-    return "Hello, hello and hello again"
-
 # Exercise
 @app.route('/books', methods=['GET'])
 def get_all_books():
