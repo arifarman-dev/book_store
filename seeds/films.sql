@@ -8,4 +8,4 @@ CREATE TABLE films (
 
 INSERT INTO films (title, release_year) VALUES ('King Kong', 1933);
 INSERT INTO films (title, release_year) VALUES ('The Godfather', 1972);
-INSERT INTO films (title, release_year) VALUES ('Star Wards', 1977);
+INSERT INTO films (title, release_year) VALUES ('Star Wars', 1977);
